@@ -214,7 +214,7 @@ div.d:hover{
 }
 /* Animation */
 .maintxt{
-    animation: animated-text 4s steps(29,end) 1s 1 normal both,
+    animation: animated-text 2.5s steps(29,end) 1s 1 normal both,
                animated-cursor 600ms steps(29,end) infinite;
 }
   
@@ -222,7 +222,7 @@ div.d:hover{
   
 @keyframes animated-text{
     from{width: 0;}
-    to{width: 89%;} 
+    to{width: 62%;} 
 }
   
   /* cursor animations */
