@@ -222,7 +222,7 @@ div.d:hover{
   
 @keyframes animated-text{
     from{width: 0;}
-    to{width: 649px;} 
+    to{width: 89%;} 
 }
   
   /* cursor animations */
