@@ -1,0 +1,66 @@
+body{
+    background-color: #272727;
+    color: antiquewhite;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.boundary{
+    border: 2px solid white;
+    border-radius: 25px;
+    height: 8vh;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+}
+.html{
+    background-color: rgb(51, 230, 200);
+    height: 70%;
+    width:72%;
+    border-radius:21px;
+    margin-left: 0.8vw;
+    white-space: nowrap;
+    overflow: hidden; 
+}
+.css{
+    background-color: rgb(51, 230, 119);
+    height: 70%;
+    width:85%;
+    border-radius:21px;
+    margin-left: 0.8vw;
+    white-space: nowrap;
+    overflow: hidden; 
+}
+.js{
+    background-color: rgb(68, 131, 226);
+    height: 70%;
+    width:30%;
+    border-radius:21px;
+    margin-left: 0.8vw;
+    white-space: nowrap;
+    overflow: hidden; 
+}
+/* animation */
+.html{
+    animation: animated-bar-a 2s steps(29,end) 1s 1 normal both;
+}
+.css{
+    animation: animated-bar-b 2s steps(29,end) 1s 1 normal both;
+}
+.js{
+    animation: animated-bar-c 2s steps(29,end) 1s 1 normal both;
+}
+@keyframes animated-bar-a{
+    from{width:0;}
+    to{width:57.6vw;}
+}
+@keyframes animated-bar-b{
+    from{width:0;}
+    to{width:68vw;}
+}
+@keyframes animated-bar-c{
+    from{width:0;}
+    to{width:24vw;}
+}

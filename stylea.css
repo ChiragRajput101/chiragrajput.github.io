@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #272727;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: rgba(233, 217, 217, 0.815);
+}
+.cont2{
+    display: flex;
+}
+h1{
+    margin: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xxx-large;
+
+}
+#img{
+    height: 250px;
+    margin: 10px;
+    border: 2px solid rgb(245, 217, 161);
+    border-radius: 5%;
+}
+.main{
+    margin: 10px;
+    font-size: large;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 25px;
+}
+#btn{
+    margin:12px;
+    margin-left: 15px;
+    background-color: rgb(136, 61, 180);
+    color: antiquewhite;
+    height: 40px;
+    width:70px;
+    border-color: rgb(136, 61, 180);
+    border-radius: 22px;
+}
+button#btn:hover{
+    background-color: rgb(219, 151, 25);
+    color: rgb(248, 247, 246);
+    border-color: rgb(219, 151, 25);
+}
+
+@media (max-width: 680px){
+    .cont2{
+        flex-direction: column;
+        align-items: center;
+    }
+    #img{
+        height: 170px;
+        width: 150px;
+    }
+}
