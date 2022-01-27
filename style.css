@@ -34,17 +34,26 @@ div{
     width: 110px;
     border: 7px solid #3b0621;
     border-radius: 50%;
+}
+.whatever{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    width: 50vw;
+    border: none;
 } 
 .maintxt{
-    white-space: nowrap;
-    overflow: hidden;    
+    /* white-space: nowrap;
+    overflow: hidden;     */
     font-family: 'Source Code Pro', monospace;  
     font-size: 47px;
     color: rgba(255, 255, 255, 0.938);
     margin: 10px;
     word-wrap: normal;
+    width:fit-content;
     border: none;
-
 }
 .next{
     font-family: 'Source Code Pro', monospace;  
@@ -211,22 +220,27 @@ div.d:hover{
     .connect{
         margin: 0%;
     }
+    .whatever{
+        width: 100vw;
+    }
+    
 }
 /* Animation */
-.maintxt{
+/* .maintxt{
     animation: animated-text 2.5s steps(29,end) 1s 1 normal both,
                animated-cursor 600ms steps(29,end) infinite;
-}
+} */
   
   /* text animation */
   
-@keyframes animated-text{
+/* @keyframes animated-text{
     from{width: 0;}
-    to{width: 62%;} 
+    to{width:62%;} 
 }
   
   /* cursor animations */
-@keyframes animated-cursor{
+/* @keyframes animated-cursor{
     from{border-right-color: rgba(0,255,0,.75);}
     to{border-right-color: transparent;}
-}
+} */
+
