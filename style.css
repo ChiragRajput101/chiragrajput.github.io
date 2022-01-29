@@ -20,6 +20,7 @@ body{
 div{
     border: 1px solid rgb(92, 91, 90);
     border-radius: 5%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .side{
     background-image: linear-gradient(to right,#8A1EE6,#c929df,#df589b,#d17fa8  );
@@ -43,23 +44,29 @@ div{
     margin-top: 5px;
     width: 50vw;
     border: none;
+    height: 8%;
 } 
-.maintxt{
-    /* white-space: nowrap;
-    overflow: hidden;     */
-    font-family: 'Source Code Pro', monospace;  
-    font-size: 47px;
-    color: rgba(255, 255, 255, 0.938);
-    margin: 10px;
-    word-wrap: normal;
-    width:fit-content;
+.letter{
+    font-family: 'La Belle Aurore',cursive;
+    font-size:xx-large;
+    color: white;
     border: none;
+}
+.space{
+    font-size:large;
+    visibility: hidden;
+}
+div.letter:hover{
+    color:rgb(6, 237, 253);
+    font-family:'Bubblegum Sans', cursive;
+    font-size:xxx-large;
+    font-weight:900;
 }
 .next{
     font-family: 'Source Code Pro', monospace;  
-    font-size: 20px;
+    font-size: large;
     color: rgba(255, 255, 255, 0.938);
-    margin: 10px;
+    margin: 3px;
     word-wrap: normal;
     border: none;
 }
@@ -223,24 +230,14 @@ div.d:hover{
     .whatever{
         width: 100vw;
     }
+    .letter{
+        font-size: x-large;
+    }
+    div.letter:hover{
+        color:rgb(6, 237, 253);
+        font-family:'Bubblegum Sans', cursive;
+        font-size:xx-large;
+        font-weight:900;
+    }
     
 }
-/* Animation */
-/* .maintxt{
-    animation: animated-text 2.5s steps(29,end) 1s 1 normal both,
-               animated-cursor 600ms steps(29,end) infinite;
-} */
-  
-  /* text animation */
-  
-/* @keyframes animated-text{
-    from{width: 0;}
-    to{width:62%;} 
-}
-  
-  /* cursor animations */
-/* @keyframes animated-cursor{
-    from{border-right-color: rgba(0,255,0,.75);}
-    to{border-right-color: transparent;}
-} */
-
